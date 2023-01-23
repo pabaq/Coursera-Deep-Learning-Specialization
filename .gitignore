@@ -1,0 +1,14 @@
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore the following everywhere
+!.gitignore
+!**/images/*
+!**/nb_images/*
+!*.ipynb
+!*.pdf
+!C5*/**/*.png
+!README.md
+# Ignore training images
+C4*/**/W3*/A1/images
