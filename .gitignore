@@ -2,6 +2,8 @@
 *
 # Don't ignore directories, so we can recurse into them
 !*/
+# except for notebook checkpoints
+**/.ipynb_checkpoints/
 # Don't ignore the following everywhere
 !.gitignore
 !**/images/*
